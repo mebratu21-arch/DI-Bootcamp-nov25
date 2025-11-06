@@ -1,0 +1,65 @@
+/* General page styling */
+body {
+  background-color: #6ecff6;       /* light blue background like in image */
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+/* Wrapper */
+#wrap {
+  width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Title */
+h1 {
+  color: #000;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Description paragraph */
+#wrap > p {
+  font-size: 14px;
+  color: #000;
+  line-height: 1.5;
+}
+
+/* Poem list */
+ul {
+  list-style-type: none;   /* remove bullets */
+  padding: 0;
+  margin: 20px 0;
+  text-align: center;      /* center the poem text block */
+}
+
+li {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #000;
+  text-align: left;
+  display: inline-block;   /* keeps centered poem shape */
+  width: 500px;            /* controls the poem width */
+  position: relative;
+}
+
+/* Drop-cap (first letter bigger) */
+li::first-letter {
+  font-size: 26px;
+  font-weight: bold;
+  color: #000;
+  margin-left: 20px;
+}
+
+/* Footer link */
+.copyright {
+  font-size: 14px;
+}
+
+.copyright a {
+  color: #0000ee;
+  text-decoration: underline;
+}
