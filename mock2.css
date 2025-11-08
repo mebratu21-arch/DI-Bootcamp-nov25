@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px; /* Adjust as needed */
+    margin: 20px auto;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.header {
+    background-color: purple;
+    height: 100px; /* Adjust as needed */
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between; /* Distributes space evenly */
+}
+
+.column {
+    flex: 1; /* All columns share space equally */
+    margin-right: 10px; /* Space between columns */
+    height: 200px; /* Adjust as needed */
+    border: 2px solid black;
+}
+
+/* Remove margin from the last column */
+.column:last-child {
+    margin-right: 0;
+}
+
+/* Column colors */
+.column-red {
+    background-color: lightcoral;
+}
+
+.column-green {
+    background-color: lightgreen;
+}
+
+.column-orange {
+    background-color: orange;
+}
